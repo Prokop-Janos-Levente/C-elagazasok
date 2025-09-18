@@ -50,7 +50,20 @@ namespace elagazasok
                 Console.WriteLine("Már szavazhatsz.");
             else
                 Console.WriteLine("mmég nem szavhatsz.");
+            Console.WriteLine();
 
+            //5. feladat
+            Console.WriteLine("Add meg a jegyet (1-5): ");
+            int jegy = int.Parse(Console.ReadLine());
+            if (jegy < 3)
+                Console.WriteLine("Elégtelen");
+            else if (jegy == 3)
+                Console.WriteLine("Elégséges");
+            else if (jegy == 4)
+                Console.WriteLine("Jó");
+            else
+                Console.WriteLine("Jeles");
+            Console.WriteLine();
         }
     }
 }
