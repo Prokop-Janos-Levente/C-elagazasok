@@ -86,6 +86,16 @@ namespace elagazasok
             else
                 Console.WriteLine("A szám nem pozitív és páros.");
 
+            //8. feladat
+            Console.WriteLine("Adj meg egy karaktert: ");
+            char karakter = Console.ReadKey().KeyChar;
+            if (char.IsDigit(karakter))
+                Console.WriteLine("Ez egy szám.");
+            else if (char.IsLetter(karakter))
+                Console.WriteLine("Ez egy betű.");
+            else
+                Console.WriteLine("Ez sem szám sem betű.");
+
 
         }
     }
