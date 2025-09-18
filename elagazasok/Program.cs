@@ -10,8 +10,17 @@ namespace elagazasok
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Adj meg egy szémot: ");
-            int szam = 
+            //1.feladat
+            Console.Write("Adj meg egy szémot: ");
+            int szam =  int.Parse(Console.ReadLine());
+            if (szam % 2 == 0)
+                Console.WriteLine("Páros");
+            else
+                Console.WriteLine("Páratlan");
+            Console.ReadLine();
+
+            
+
         }
     }
 }
