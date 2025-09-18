@@ -64,6 +64,22 @@ namespace elagazasok
             else
                 Console.WriteLine("Jeles");
             Console.WriteLine();
+
+            //6. feladat
+            Console.WriteLine("Gondoltam egy számra. Próbáld kitalálni.");
+            int kitalal = int.Parse(Console.ReadLine());
+            int kitalalt = 15;
+
+            if (kitalal == kitalalt)
+                Console.WriteLine("Gratulálok eltaláltad.");
+            else if (kitalal > kitalalt)
+                Console.WriteLine("A szám amire gondoltam kisebb.");
+            else
+                Console.WriteLine("A szám amire gondoltam nagybb.");
+            Console.WriteLine();
+
+
+
         }
     }
 }
