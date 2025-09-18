@@ -19,7 +19,16 @@ namespace elagazasok
                 Console.WriteLine("Páratlan");
             Console.ReadLine();
 
-            
+            //2.feladat
+            Console.WriteLine("Adj meg egy számot: ");
+            int szam1 = int.Parse(Console.ReadLine());
+            if (szam1 > 0)
+                Console.WriteLine("Pozitív");
+            else if (szam1 < 0)
+                Console.WriteLine("Negatív");
+            else
+                Console.WriteLine("Nulla");
+            Console.ReadLine();
 
         }
     }
