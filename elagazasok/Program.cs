@@ -78,6 +78,13 @@ namespace elagazasok
                 Console.WriteLine("A szám amire gondoltam nagybb.");
             Console.WriteLine();
 
+            //7.feladat
+            Console.WriteLine("adj meg egy számot: ");
+            int jo = int.Parse(Console.ReadLine());
+            if (jo > 0 && jo % 2 == 0)
+                Console.WriteLine("A szám pozitív és páros.");
+            else
+                Console.WriteLine("A szám nem pozitív és páros.");
 
 
         }
