@@ -30,6 +30,17 @@ namespace elagazasok
                 Console.WriteLine("Nulla");
             Console.ReadLine();
 
+            //3. feladat
+            Console.WriteLine("Adj meg egy hónapszámot (1-12): ");
+            int honap = int.Parse(Console.ReadLine());
+            if ( honap>= 3 && honap <= 5)
+                Console.WriteLine("Tavasz");
+            else if (honap >= 6 && honap <= 8)
+                Console.WriteLine("Nyár");
+            else if (honap >= 9 && honap <= 11)
+                Console.WriteLine("Ősz");
+            else
+                Console.WriteLine("Tél");
         }
     }
 }
