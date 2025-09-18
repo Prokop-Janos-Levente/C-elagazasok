@@ -41,6 +41,16 @@ namespace elagazasok
                 Console.WriteLine("Ősz");
             else
                 Console.WriteLine("Tél");
+            Console.WriteLine();
+
+            //4. feladat
+            Console.WriteLine("Add meg az életkorod: ");
+            int kor = int.Parse(Console.ReadLine());
+            if (kor >= 18)
+                Console.WriteLine("Már szavazhatsz.");
+            else
+                Console.WriteLine("mmég nem szavhatsz.");
+
         }
     }
 }
