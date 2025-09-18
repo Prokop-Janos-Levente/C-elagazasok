@@ -1,0 +1,2 @@
+C:\Users\prokopjl\source\repos\elagazasok\elagazasok\obj\Debug\elagazasok.csproj.AssemblyReference.cache
+C:\Users\prokopjl\source\repos\elagazasok\elagazasok\obj\Debug\elagazasok.csproj.CoreCompileInputs.cache
